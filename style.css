@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #1d1d23;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#container {
+  height: 10vh;
+  width: auto;
+  background-color: #34344a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#startTimer {
+  border: none;
+  color: black !important;
+  font-size: 18px !important;
+  padding: 5px 40px !important;
+  border-radius: 26px;
+  background: #f0f757;
+  cursor: pointer;
+  height: 5vh;
+}
+
+#startTimer:hover {
+  background: #079309;
+}
+
+#para {
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  color: white;
+}
+
+#heading {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #39393e;
+  color: white;
+  height: 3vh;
+  width: 10vw;
+  margin: auto;
+  padding: 5px 40px !important;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f757;
+}
+
+.timer {
+  font-size: 24px;
+  color: white;
+  margin-top: 10px;
+}
+
+.timer-ended {
+  color: black;
+}
+
+.time-left {
+  font-size: 18px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.control-button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.stop-button {
+  background-color: #f0f757;
+  color:black;
+  margin-top: 10px;
+}
+
+.stop-button:hover {
+  background-color: #079309;
+}
+
+.delete-button {
+  background-color: #34344A;
+  color: white;
+
+}
+
+.delete-button:hover {
+  background-color: #079309;
+}
+
+#heading {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  margin: 20px;
+  margin: auto;
+  color: white;
+}
+.no-timers-text {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+label {
+  color: white;
+}
+input {
+  border-radius: 10px;
+  border: none;
+}
