@@ -59,6 +59,9 @@ function createTimer(totalSeconds) {
   const timerControls = document.createElement("div");
   timerControls.classList.add("timer-controls");
 
+
+
+  
   // Create the 'Stop Timer' button
   const stopButton = document.createElement("button");
   stopButton.classList.add("control-button", "stop-button");
